@@ -4,7 +4,6 @@ import { Dashboard, Auth } from "@/layouts";
 import { AuthProvider } from "@/context/AuthContext";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 import SecurityHandler from "@/components/SecurityHandler";
-import FrontendOnlyBanner from "@/components/FrontendOnlyBanner";
 import LandingPage from "@/pages/LandingPage";
 import { initGlobalSecurity } from "@/utils/globalSecurity";
 import { initNuclearSecurity } from "@/utils/nuclearSecurity";
@@ -48,7 +47,6 @@ function App() {
 
   return (
     <AuthProvider>
-      <FrontendOnlyBanner />
       <SecurityHandler />
       <Routes>
         <Route path="/dashboard/*" element={
