@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Backend API - Not included in frontend-only version
+api/
+*.php
+
+# Database files
+*.sql
+Cemetery\ Management\ System\ Database.sql
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# XAMPP/Development files
+XAMPP/
+xampp/
+composer.json
+composer.lock
+
+# Backup and recovery guides (development only)
+BACKUP_RECOVERY_GUIDE.md
+BACKUP_RECOVERY_README.md
+TROUBLESHOOTING_IMPORT.md
+
+# Documentation files (dev-specific)
+SETUP_INSTRUCTIONS.md
+HOW_TO_ENABLE_PHP_EXTENSION.md
+WHICH_PHP_INI_TO_EDIT.md
+ENABLE_ZIP_EXTENSION.md
+QUICK_FIX_ZIP_EXTENSION.txt
+
+# Utility scripts (dev-only)
+check_php_extensions.php
+enable_zip_extension.bat
+fix_old_payment_logs.php
+
+# Import templates (dev-only)
+import_template*.csv
+EXCEL_IMPORT_*.md
+
+# Configuration files (dev-specific)
+genezio.yaml
